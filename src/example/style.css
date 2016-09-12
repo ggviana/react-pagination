@@ -1,0 +1,23 @@
+.pagination {
+  background-color: #dedede;
+  border-radius: 6px;
+  display: inline;
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 0 5px;
+  list-style: none;
+}
+
+.page {
+  border-radius: 6px;
+  color: #6290c8;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 7px;
+  margin: 0 2px;
+  text-align: center;
+}
+
+.page.active {
+  background-color: #1d3461;
+}
